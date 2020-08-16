@@ -6,5 +6,5 @@ ZONE=us-central1-a
 CLUSTER_NAME=mycluster
 
 ##Create cluster using default version
-gcloud container clusters create $CLUSTER_NAME \
+gcloud container clusters delete $CLUSTER_NAME \
     --zone $ZONE
