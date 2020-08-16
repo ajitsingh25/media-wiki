@@ -39,12 +39,6 @@ chmod +x get_helm.sh
 ./get_helm.sh
 
 
-###################
-Install Helm
-###################
-echo "install helm"
-# installs helm with bash commands for easier command line integration
-curl https://raw.githubusercontent.com/kubernetes/helm/master/scripts/get | bash
 # add a service account within a namespace to segregate tiller
 kubectl --namespace kube-system create sa tiller
 # create a cluster role binding for tiller

@@ -8,7 +8,7 @@ address:
   IP: 34.121.112.72
 
 image:
-  repository: mediawiki
+        repository: ajitsingh25/mediawiki:v2
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: latest
