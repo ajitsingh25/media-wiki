@@ -15,7 +15,7 @@ items:
       this.\n## For more information on customizing the URLs\n## (like /w/index.php/Page_title
       to /wiki/Page_title) please see:\n## https://www.mediawiki.org/wiki/Manual:Short_URL\n$wgScriptPath
       = \"\";\n\n## The protocol and server name to use in fully-qualified URLs\n$wgServer
-      = \"http://localhost:{{ .Values.service.nodePort }}\";\n\n## The URL path to static resources (images,
+      = \"http://34.121.112.72/\";\n\n## The URL path to static resources (images,
       scripts, etc.)\n$wgResourceBasePath = $wgScriptPath;\n\n## The URL path to the
       logo.  Make sure you change this from the default,\n## or else you'll overwrite
       your logo when you upgrade!\n$wgLogo = \"$wgResourceBasePath/resources/assets/wiki.png\";\n\n##

@@ -20,6 +20,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 # $wgDisableOutputCompression = true;
 
 $wgSitename = "my-wiki";
+$wgMetaNamespace = "My-wiki";
 
 ## The URL base path to the directory containing the wiki;
 ## defaults for all runtime URL paths are based off of this.
@@ -29,7 +30,7 @@ $wgSitename = "my-wiki";
 $wgScriptPath = "";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "http://localhost:31374";
+$wgServer = "http://34.121.112.72";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
@@ -94,14 +95,14 @@ $wgShellLocale = "C.UTF-8";
 # Site language code, should be one of the list in ./languages/data/Names.php
 $wgLanguageCode = "en";
 
-$wgSecretKey = "cc943478b3f78f02d70e53ac16d7433c1b4e52c1323ec132a89f65915378ca41";
+$wgSecretKey = "d9149e0cf5f28ac31e3c3f5441ca17854ebfec6623fb20c93b1417ebb806d8ce";
 
 # Changing this will log out all existing sessions.
 $wgAuthenticationTokenVersion = "1";
 
 # Site upgrade key. Must be set to a string (default provided) to turn on the
 # web installer while LocalSettings.php is in place
-$wgUpgradeKey = "8762913921cdbd5e";
+$wgUpgradeKey = "d764d2abd9dccc6c";
 
 ## For attaching licensing metadata to pages, and displaying an
 ## appropriate copyright notice / icon. GNU Free Documentation
@@ -127,4 +128,5 @@ wfLoadSkin( 'Vector' );
 
 # End of automatically generated settings.
 # Add more configuration options below.
+
 
